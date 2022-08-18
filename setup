@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+mkdir .config/picom
+
+sleep 0.1s
+
+mv picom.conf ~/.config/picom/
+
+sleep 0.1s
+
+echo "picom setup completed!"
